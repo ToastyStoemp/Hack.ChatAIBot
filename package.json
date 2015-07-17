@@ -1,0 +1,29 @@
+{
+  "name": "hack.chataibot",
+  "version": "1.0.0",
+  "description": "Ai Bot for Hack.Chat",
+  "main": "./src/main.js",
+  "dependencies": {
+    "redwrap": "^0.0.4",
+    "ws": "^0.7.2",
+    "figlet": "1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToastyStoemp/Hack.ChatAIBot"
+  },
+  "keywords": [
+    "chat",
+    "bot"
+  ],
+  "author": {
+    "name": "Wolf Van Herreweghe",
+    "email": "foreverwolf@live.be",
+    "url": "https://github.com/ToastyStoemp"
+  },
+  "license": "4-clause BSD",
+  "bugs": {
+    "url": "https://github.com/ToastyStoemp/Hack.ChatAIBot/issues"
+  },
+  "homepage": "https://github.com/ToastyStoemp/Hack.ChatAIBot"
+}
