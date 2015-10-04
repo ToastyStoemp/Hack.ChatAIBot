@@ -22,6 +22,8 @@ function ChatConnection(url, nick, channel)
 	{
 		var joinData = {cmd: "join", nick: nick, channel: channel};
 		that.ws.send(JSON.stringify(joinData));
+		var msgData = JSON.stringify({cmd: "chat", text: "I'm trying to make a new client for hack chat"});
+		//that.ws.send(msgData);
 	});
 
 	this.ws.on("message", function(data, flags)
